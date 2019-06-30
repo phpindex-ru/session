@@ -79,6 +79,13 @@ function testvariable($a, $b, $c, $d) {
 
 }
       
+      
+      
+      
+$string = 'Хорошая погода в Волгограде';
+$string = preg_replace('/Волгограде/', 'Питере', $string); 
+echo $string;
+      
 
 ?>
 
